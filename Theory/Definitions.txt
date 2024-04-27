@@ -1,0 +1,30 @@
+Process:-> Process is a program in execution. It consist, memorySpace, <STACK and HEAP>
+
+Threads:->LightWeight subprocess, Smallest unit of execution.
+
+** IN JAVA (BY DEFAULT) all programming languages are sequential, they execute instruction one by one(on a line by line basis); 
+
+** MultiThreading is the ability of CPU to execute multiple process, and threads simultaneously.
+
+**Use <taskList> command to check how multi threading works in your CPU.
+
+**TIME SLICING ALOGRITHM: It ensures that each task get a fair share of  the CPU's time by allowing each task to run for a fixed amount of time before moving on to next one.
+
+
+** Benefit of MultiThreading:- 1) Execution of multiple tasks at a same time, make responsive application possible.
+                            2)SAVE TIME
+
+** Disadvantages of MultiThreading: 1)Using multithreading for short process do application complicated and take more time.
+
+(ONLY a certain no. of threads is good , if they exceed then run time will also increase);
+
+
+
+**THREAD LIFE CYCLE: 
+1)New : When you intitalise threading
+2)Active: when you runs start() method, runnable and running two states.
+3)Blocked: When we use join() method then it waits to finish that thread.
+4)Terminated: When thread finish the task.
+
+
+**Sequential Processing is line by line execution of code.
