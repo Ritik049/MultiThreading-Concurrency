@@ -5,7 +5,9 @@ public class Mutex
     // Mutext is a short form of mutual exclusion that allows only one thread at a time to access a resource.
     //They used to typically protect the other thread to access the shared resource.
     //It has concept of ownership, if mutex acquires lock then, until it releases the lock another one cant take it.
-    //Only that mutex can unlock it.
+    //Only that mutex can unlock it. 
+
+    //Ownership: It implies that thread acquiring a synchronisaiton object responsible for releasing it. It prevents deadLock by ensuring that thread acquires lock responsible to release it.
 
     //*****Remember we use lock and synchronised keywords in our methods. and from main method we call thread;
     private static  Lock mutex = new ReentrantLock();
